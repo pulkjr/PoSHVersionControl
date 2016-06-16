@@ -1,0 +1,6 @@
+<PoSHVersionControl>
+	<distro path="c:\scripts\distro" type="smb" />
+	<userPreference>
+		<defaultTemplate name="PoSHScriptTemplate.ps1" />
+	</userPreference>
+</PoSHVersionControl>
