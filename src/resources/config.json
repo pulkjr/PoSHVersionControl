@@ -1,0 +1,28 @@
+﻿{
+module:[
+  {
+    name:"PoSHVersionControl.Dev",
+    manifestName:"manifest.csv",
+    hash:true,
+    changeLog:"c:\\scripts\\dev",
+    distro:[
+      {
+        type:"developement",
+        path:"c:\\scripts\\dev"
+      },
+      {
+        type:"production",
+        path:"c:\\scripts\\production"
+      }
+    ]
+  }
+],
+userPreferences:{
+  defaultTemplate:{
+    name:"PoSHScriptTemplate.ps1"
+  },
+  localTesting:{
+    path:"$($PSScriptRoot)\\modules",
+    autoload:true
+  }
+}}
