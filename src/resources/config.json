@@ -18,9 +18,16 @@ module:[
   }
 ],
 userPreferences:{
-  defaultTemplate:{
-    name:"PoSHScriptTemplate.ps1"
+  Templates:[{
+    name:"PoSHScriptTemplate.ps1",
+    module:null,
+    default:true
   },
+  {
+    name:"test",
+    module:null,
+    default:false
+  }],
   localTesting:{
     path:"$($PSScriptRoot)\\modules",
     autoload:true

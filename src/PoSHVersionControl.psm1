@@ -7,7 +7,7 @@ $parametrs = @{
     'Name' = 'MasterRepoInfo';
     'Value' = $(ConvertFrom-Json -InputObject (Get-Content -Path "$($PSScriptRoot)\Resources\config.json" -Raw));
     'Description' = 'Array that holds all of the repository information';
-    #'Visibility' = 'Private';
+    'Visibility' = 'Private';
     #'Scope' = 'Script';
 
 }
